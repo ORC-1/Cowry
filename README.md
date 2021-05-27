@@ -10,3 +10,7 @@ you can optionally create a virtual environment running python 3.8
 3. python manage.py runserver
 4. on your browser or Postman call 127.0.0.1:8000/api/v1/id/get_uuid
 
+**Update:**
+For speed, the process for saving the latest pair is threaded, this saves time and makes the API response faster.
+
+![image](https://user-images.githubusercontent.com/16105527/119855216-a17f0880-bf09-11eb-8a53-bc496805d568.png)
